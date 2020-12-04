@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Main from "./pages/main"
+import Mainpage from "./pages/Mainpage"
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
       <Switch>
         <Route path={"/"} exact={true}>
-        <Main />
+        <Mainpage />
         </Route>
       </Switch>
       </BrowserRouter>
